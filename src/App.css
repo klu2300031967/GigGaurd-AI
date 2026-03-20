@@ -1,0 +1,178 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+html, body, #root {
+  height: 100%;
+  width: 100%;
+}
+
+/* GLOBAL DARK THEME */
+.app {
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(135deg, #0f172a, #1e293b);
+  color: white;
+}
+
+/* ================= LOGIN ================= */
+
+.login-wrapper {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* GLASS CARD */
+.login-card {
+  width: 340px;
+  padding: 35px;
+  border-radius: 16px;
+  text-align: center;
+
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+
+  box-shadow: 0 0 30px rgba(0, 123, 255, 0.2);
+}
+
+/* LOGO */
+.logo {
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 10px;
+
+  background: linear-gradient(90deg, #00c6ff, #0072ff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+/* TAGLINE */
+.tagline {
+  font-size: 13px;
+  color: #cbd5f5;
+  margin-bottom: 25px;
+}
+
+/* INPUT */
+input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 8px;
+
+  border: none;
+  outline: none;
+
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+}
+
+input::placeholder {
+  color: #aaa;
+}
+
+/* BUTTON */
+button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 15px;
+
+  border: none;
+  border-radius: 8px;
+
+  background: linear-gradient(90deg, #00c6ff, #0072ff);
+  color: white;
+  font-weight: bold;
+
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px #0072ff;
+}
+
+/* ================= DASHBOARD ================= */
+
+.dashboard {
+  display: flex;
+  height: 100%;
+}
+
+/* SIDEBAR */
+.left-panel {
+  width: 240px;
+  min-width: 240px;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 20px;
+}
+
+/* RIGHT AREA */
+.right-area {
+  flex: 1;
+  display: flex;
+  justify-content: center; /* centered looks better */
+  align-items: center;
+}
+
+/* CARD */
+.card {
+  width: 360px;
+  padding: 25px;
+  border-radius: 16px;
+
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(12px);
+
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 25px rgba(0, 123, 255, 0.2);
+}
+
+/* RESULT COLORS */
+.approved {
+  color: #4ade80;
+  margin-top: 15px;
+}
+
+.rejected {
+  color: #f87171;
+  margin-top: 15px;
+}
+
+.warning {
+  color: #facc15;
+  margin-top: 15px;
+}
+
+/* EXTRA TEXT */
+.logic {
+  margin-top: 10px;
+  font-size: 13px;
+  color: #aaa;
+}
+
+.highlight {
+  margin-top: 10px;
+  font-size: 13px;
+  font-style: italic;
+  color: #ccc;
+}
+
+/* LOGOUT BUTTON */
+.logout {
+  margin-top: 20px;
+  background: #ef4444;
+}
+
+.logout:hover {
+  box-shadow: 0 0 10px red;
+}
