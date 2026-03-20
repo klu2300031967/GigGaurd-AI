@@ -157,3 +157,5 @@ Instead of treating all disruptions the same,
 we understand different scenarios and check whether the worker actually lost income.
 
 So the payout is fair, realistic and genuine.
+
+EXPLINATION VIDEO - https://youtu.be/IYar2bWeiUo?si=mzcVNZ9Bs6XE-vU_
